@@ -1,7 +1,6 @@
 <?php
     //Allow the config
     define('__CONFIG__', true);
-
     //required the config file
     require_once("inc/config.php");
 ?>

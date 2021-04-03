@@ -6,4 +6,11 @@
 
     //Out config is below
 
+
+    //Include the DB.php file.
+    $path = dirname(dirname(__file__));
+    include_once "{$path}/classes/db.php";
+    $conn = Database::getConnection();
+
+
 ?>
